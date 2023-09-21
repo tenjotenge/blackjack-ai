@@ -19,7 +19,7 @@ possible_hands = [
 
 # Create a 10x34 chromosome table to represent decisions (initialize with random decisions)
 # S is stay, H is hit, D is double down, and P is split which is only possible for pairs
-chromosome = [[random.choice(["S", "H", "P", "D"]) for _ in range(34)] for _ in range(10)]
+chromosome = [[random.choice(["S", "H", "D"]) for _ in range(34)] for _ in range(10)]
 
 # Define a function to calculate the index for the strategy decision in the chromosome
 def calculate_index(upcard, hand):
