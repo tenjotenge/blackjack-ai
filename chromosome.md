@@ -11,7 +11,7 @@ chromosome structure: 10 [possible dealer up cards] x 34 (16 + 8 + 10) [hard han
 
 'A' followed '-' indicates an Ace paired with it's corresponding number card, these hands are specifically marked since the Ace card can either count as 11 or 1 points.
 
-'D' indicates doubles of the corresponding after the '-'
+'D' indicates doubles of the corresponding card listed after the '-'
 
 possible dealer upcards: [2, 3, 4, 5, 6, 7. 8, 9, T, A]
 
