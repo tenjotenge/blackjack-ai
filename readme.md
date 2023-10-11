@@ -1,6 +1,8 @@
-blackjack-ai/chromosome.md
+blackjack-ai/readme.md
 
 
+CHROMOSOME INFO: 
+------
 chromosome structure: 10 [possible dealer up cards] x 34 (16 + 8 + 10) [hard hands + soft hands + pairs]
 
 --
@@ -27,9 +29,7 @@ possible soft hands: [A-2, A-3, A-4, A-5, A-6, A-7. A-8, A-9]
 
 possible pairs: [D-2, D-3, D-4, D-5, D-6, D-7. D-8, D-9, D-T, D-A]
 
---
-
-
+---
 340 total cells
 
 4 possible options for cells: 
@@ -37,3 +37,6 @@ possible pairs: [D-2, D-3, D-4, D-5, D-6, D-7. D-8, D-9, D-T, D-A]
 - H for hit
 - P for split (only possible for pairs)
 - D for double down 
+
+-----
+
